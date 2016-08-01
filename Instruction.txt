@@ -1,0 +1,23 @@
+version of vagrant used: 1.8.5
+version of virtualbox used : 5.1.2
+
+I implement the Vagrantfile based on Vagrantfile-windows. 
+  # The goal is to implement following
+  # 1. Use provided Vagrantfile_windows file to construct a VirtualBox VM.
+  # 2. Enable the VMs basic config, networking and file sharing
+  # 3. Modify the Vagrantfile to install a web app of your choice(tried apache2 and nginx)
+  # 4. Modify the Vagrantfile to configure the web app and OS.
+  # 5. Create a script that queries checkip.dyndns.org, and appends the output to a file according to required format.
+  # 6. Create a text document that explains how your script
+ 
+ Usage:
+ checkout my code
+ "vagrant up"  will deploy the VM
+ a VM will be deployed to VirtualBox with web-app installed
+ an outputFormat.txt file will be generated as query output in format: <datetimestamp> | <script output>
+ "vagrant ssh"  can get into the VM
+ exit
+ "vagrant destroy"  can destroy the VM.
+ 
+ 
+ 
